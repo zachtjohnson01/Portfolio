@@ -18,6 +18,8 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
+    <script src="jquery-3.3.1.min.js"></script>
+
     <!-- Custom CSS -->
     <link href="css/stylish-portfolio.min.css" rel="stylesheet">
 
@@ -54,18 +56,32 @@
     <!-- Header -->
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
-        <h1 class="mb-1">Zach Johnson</h1>
-        <!-- <h3 class="mb-5">
-          <em>
-            The noblest pleasure is the joy of understanding
-            <br>
-            - Leonardo da Vinci
-          </em>
-        </h3> -->
-        <br>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
-      </div>
-      <div class="overlay"></div>
+          <div class="row no-gutters">
+            <div class="col-lg-12">
+                <span class="caption">
+                  <span class="caption-content"></span>
+                    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+                    <h1 class="mb-1 text-white">Hello! <br>
+                      <span
+                        class="txt-rotate"
+                        data-period="2000"
+                        data-rotate='[ "My Name is Zach Johnson" ]'></span>
+                    </h1>
+                  </span>
+                </span>
+                <!-- <img class="img-fluid" src="img/ParksAndRec.jpg" alt=""> -->
+            </div>
+          </div>
+
+      <!-- <h3 class="mb-5">
+        <em>
+          The noblest pleasure is the joy of understanding
+          <br>
+          - Leonardo da Vinci
+        </em>
+      </h3> -->
+    </div>
+    <!-- <div class="overlay"></div> -->
     </header>
 
     <!-- About -->
@@ -217,6 +233,17 @@
               <img class="img-fluid" src="img/LIRI.jpg" alt="">
             </a>
           </div>
+          <div class="col-lg-6">
+            <a class="portfolio-item" href="https://github.com/zachtjohnson01/constructor-hangman">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Hangman Node App</h2>
+                  <p class="mb-0">Parks and Recreation, Command Line Interface game made using node.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/hangman_node.jpg" alt="">
+            </a>
+          </div>
         </div>
       </div>
     </section>
@@ -279,7 +306,7 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="js/stylish-portfolio.min.js"></script>
+    <script src="js/stylish-portfolio.js"></script>
 
   </body>
 
